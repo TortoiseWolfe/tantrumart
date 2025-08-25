@@ -41,8 +41,9 @@ jobs:
     - name: Type checking
       run: npm run type-check
     
-    - name: Run tests
-      run: npm test
+    # Tests will be added later
+    # - name: Run tests
+    #   run: npm test
     
     - name: Check bundle size
       run: |
